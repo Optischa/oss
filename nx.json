@@ -107,6 +107,11 @@
       "cache": true,
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
+    },
+    "lint": {
+      "options": {
+        "format": "gitlab"
+      }
     }
   },
   "generators": {

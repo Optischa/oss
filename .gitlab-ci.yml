@@ -1,11 +1,5 @@
----
 include:
   - template: Workflows/MergeRequest-Pipelines.gitlab-ci.yml
-  - template: Jobs/Code-Quality.gitlab-ci.yml
-
-workflow:
-  auto_cancel:
-    on_new_commit: conservative
 
 default:
   image: node:24
@@ -14,10 +8,6 @@ variables:
   CI: 'true'
   GIT_DEPTH: 0
   GIT_FETCH_EXTRA_FLAGS: --filter=tree:0
-
-code_quality:
-  artifacts:
-    paths: [gl-code-quality-report.json]
 
 lint:commit-msg:
   before_script:
@@ -53,8 +43,12 @@ lint:branch:
 # Main job
 CI:
   interruptible: true
-  # variables:
-  #   NX_CLOUD_ACCESS_TOKEN: $NX_CLOUD_ACCESS_TOKEN
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      variables:
+        NX_CLOUD_ACCESS_TOKEN: ${NX_CLOUD_ACCESS_TOKEN_RW}
+    - variables:
+        NX_CLOUD_ACCESS_TOKEN: ${NX_CLOUD_ACCESS_TOKEN_RO}
   cache:
     key:
       files:
@@ -74,13 +68,16 @@ CI:
     # - pnpm dlx nx start-ci-run --distribute-on="3 linux-medium-js" --stop-agents-after="build"
 
     - pnpm install --frozen-lockfile
-    - NX_HEAD=$CI_COMMIT_SHA
-    - NX_BASE=${CI_MERGE_REQUEST_DIFF_BASE_SHA:-$CI_COMMIT_BEFORE_SHA}
+    - export NX_HEAD=$CI_COMMIT_SHA
+    - export NX_BASE=${CI_MERGE_REQUEST_DIFF_BASE_SHA:-$(git rev-parse HEAD~1 2>/dev/null || git rev-parse HEAD)}
 
-    # Prepend any command with "nx-cloud record --" to record its logs to Nx Cloud
+    # Prepend any command with "nx record --" to record its logs to Nx Cloud
+    # - pnpm exec nx record -- echo Hello World
     - pnpm exec nx-cloud record -- nx format:check
-    # Nx Affected runs only tasks affected by the changes in this PR/commit. Learn more: https://nx.dev/ci/features/affected
-    - pnpm exec nx affected --base=$NX_BASE --head=$NX_HEAD -t lint test build typecheck
+    - pnpm exec nx affected -t lint test build typecheck
     # Nx Cloud recommends fixes for failures to help you get CI green faster. Learn more: https://nx.dev/ci/features/self-healing-ci
-  # after_script:
-  #   - pnpm exec nx fix-ci
+  after_script:
+    - pnpm exec nx fix-ci
+  artifacts:
+    reports:
+      codequality: gl-codequality.json

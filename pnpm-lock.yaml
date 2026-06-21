@@ -127,6 +127,9 @@ importers:
       eslint-config-prettier:
         specifier: 10.1.8
         version: 10.1.8(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1))
+      eslint-formatter-gitlab:
+        specifier: 7.1.0
+        version: 7.1.0(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1))
       eslint-plugin-import:
         specifier: 2.32.0
         version: 2.32.0(@typescript-eslint/parser@8.58.1(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1))
@@ -6624,6 +6627,9 @@ packages:
   code-block-writer@13.0.3:
     resolution: {integrity: sha512-Oofo0pq3IKnsFtuHqSF7TqBfr71aeyZDVJ0HpmqB7FBM2qEigL0iPONSCZSO9pE9dZTAxANe5XHG9Uy0YMv8cg==}
 
+  codeclimate-types@0.3.1:
+    resolution: {integrity: sha512-JCAaPG3tAYlVQQE9NP5kgsXBxPfSmflUI7manmbllUd9TN+1p/SXZkOsMAlPXCp3gcqNVL0itxMjcgKF0nBmJg==}
+
   collapse-white-space@2.1.0:
     resolution: {integrity: sha512-loKTxY1zCOuG4j9f6EPnuyyYkf58RnhhWTvRoZEokgB+WbdXehfjFviyOVYkqzEWz1Q5kRiZdBYS5SwxbQYwzw==}
 
@@ -7404,6 +7410,16 @@ packages:
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
+
+  eslint-formatter-codeclimate@2.0.1:
+    resolution: {integrity: sha512-rAnC+0sjSE9FfRRH/rdm/d5YHcC2rDhOjyIyqSJX0JjRGzp8ERxCC6DnzgZkd13y4jFNh76XuKkaZXf+nN2tuw==}
+    peerDependencies:
+      eslint: '>=9'
+
+  eslint-formatter-gitlab@7.1.0:
+    resolution: {integrity: sha512-Nh03meTqLc4BgYRVdcKB3Hy+xwA6APpidFHq3gvRgzpwplMDXiQyLqSlTUuNeImiGm1YagoLTfsSPa7XQM/H2g==}
+    peerDependencies:
+      eslint: '>=9'
 
   eslint-import-resolver-node@0.3.10:
     resolution: {integrity: sha512-tRrKqFyCaKict5hOd244sL6EQFNycnMQnBe+j8uqGNXYzsImGbGUU4ibtoaBmv5FLwJwcFJNeg1GeVjQfbMrDQ==}
@@ -20398,6 +20414,8 @@ snapshots:
 
   code-block-writer@13.0.3: {}
 
+  codeclimate-types@0.3.1: {}
+
   collapse-white-space@2.1.0: {}
 
   collect-v8-coverage@1.0.3: {}
@@ -21212,6 +21230,17 @@ snapshots:
   eslint-config-prettier@10.1.8(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1)):
     dependencies:
       eslint: 9.39.4(jiti@2.6.1)(supports-color@8.1.1)
+
+  eslint-formatter-codeclimate@2.0.1(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1)):
+    dependencies:
+      codeclimate-types: 0.3.1
+      eslint: 9.39.4(jiti@2.6.1)(supports-color@8.1.1)
+
+  eslint-formatter-gitlab@7.1.0(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1)):
+    dependencies:
+      eslint: 9.39.4(jiti@2.6.1)(supports-color@8.1.1)
+      eslint-formatter-codeclimate: 2.0.1(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1))
+      yaml: 2.9.0
 
   eslint-import-resolver-node@0.3.10:
     dependencies:
