@@ -54,7 +54,7 @@ importers:
         version: 23.0.0(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.11(@swc/helpers@0.5.18))(@swc/types@0.1.26)(typescript@5.9.3))(@swc/cli@0.8.1(@swc/core@1.15.11(@swc/helpers@0.5.18))(chokidar@5.0.0))(@swc/core@1.15.11(@swc/helpers@0.5.18))(nx@23.0.0(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.11(@swc/helpers@0.5.18))(@swc/types@0.1.26)(typescript@5.9.3))(@swc/core@1.15.11(@swc/helpers@0.5.18)))(verdaccio@6.5.2(encoding@0.1.13)(typanion@3.14.0))
       '@nx/next':
         specifier: 23.0.0
-        version: 23.0.0(66477fe4b5d1c914c91d6fa3f347a066)
+        version: 23.0.0(7ca358a16fa4378a2c73265c5691a85c)
       '@nx/plugin':
         specifier: 23.0.0
         version: 23.0.0(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.11(@swc/helpers@0.5.18))(@swc/types@0.1.26)(supports-color@8.1.1)(typescript@5.9.3))(@swc/cli@0.8.1(@swc/core@1.15.11(@swc/helpers@0.5.18))(chokidar@5.0.0))(@swc/core@1.15.11(@swc/helpers@0.5.18))(@types/node@24.12.2)(@zkochan/js-yaml@0.0.7)(babel-plugin-macros@3.1.0)(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1))(nx@23.0.0(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.11(@swc/helpers@0.5.18))(@swc/types@0.1.26)(supports-color@8.1.1)(typescript@5.9.3))(@swc/core@1.15.11(@swc/helpers@0.5.18)))(ts-node@10.9.2(@swc/core@1.15.11(@swc/helpers@0.5.18))(@types/node@24.12.2)(typescript@5.9.3))(typescript@5.9.3)(verdaccio@6.5.2(encoding@0.1.13)(supports-color@8.1.1)(typanion@3.14.0))
@@ -152,8 +152,8 @@ importers:
         specifier: 2.4.2
         version: 2.4.2
       lefthook:
-        specifier: 2.1.6
-        version: 2.1.6
+        specifier: 2.1.9
+        version: 2.1.9
       memfs:
         specifier: 4.57.1
         version: 4.57.1(tslib@2.8.1)
@@ -9155,58 +9155,58 @@ packages:
   launch-editor@2.13.2:
     resolution: {integrity: sha512-4VVDnbOpLXy/s8rdRCSXb+zfMeFR0WlJWpET1iA9CQdlZDfwyLjUuGQzXU4VeOoey6AicSAluWan7Etga6Kcmg==}
 
-  lefthook-darwin-arm64@2.1.6:
-    resolution: {integrity: sha512-hyB7eeiX78BS66f70byTJacDLC/xV1vgMv9n+idFUsrM7J3Udd/ag9Ag5NP3t0eN0EqQqAtrNnt35EH01lxnRQ==}
+  lefthook-darwin-arm64@2.1.9:
+    resolution: {integrity: sha512-119HryNcvr4nqn0wUIrNPgpMEPn9yMQzEcW/lezRsnb56PCJriJB92+MCySPVcWDxJnZef7o0T3jdnPNiSH7Qg==}
     cpu: [arm64]
     os: [darwin]
 
-  lefthook-darwin-x64@2.1.6:
-    resolution: {integrity: sha512-5Ka6cFxiH83krt+OMRQtmS6zqoZR5SLXSudLjTbZA1c3ZqF0+dqkeb4XcB6plx6WR0GFizabuc6Bi3iXPIe1eQ==}
+  lefthook-darwin-x64@2.1.9:
+    resolution: {integrity: sha512-dwo5Tke2XcQCM56DGHgFKBfRbJIL6xs2wZ0zG1TUVZgl4t4mQUt6LiZ4V/ZQfYHTZF9qywvXoIlR5N35qOaiVQ==}
     cpu: [x64]
     os: [darwin]
 
-  lefthook-freebsd-arm64@2.1.6:
-    resolution: {integrity: sha512-VswyOg5CVN3rMaOJ2HtnkltiMKgFHW/wouWxXsV8RxSa4tgWOKxM0EmSXi8qc2jX+LRga6B0uOY6toXS01zWxA==}
+  lefthook-freebsd-arm64@2.1.9:
+    resolution: {integrity: sha512-+09PVap6nl6xsaHch5JLtq7WvIR++U1Q2MzA2ai0M4uB/VP3AqrvKqHw6+9hjyKnIH+HHL83uqi77EAY+LaxLA==}
     cpu: [arm64]
     os: [freebsd]
 
-  lefthook-freebsd-x64@2.1.6:
-    resolution: {integrity: sha512-vXsCUFYuVwrVWwcypB7Zt2Hf+5pl1V1la7ZfvGYZaTRURu0zF/XUnMF/nOz/PebGv0f4x/iOWXWwP7E42xRWsg==}
+  lefthook-freebsd-x64@2.1.9:
+    resolution: {integrity: sha512-8XresjKIYpkE9ARgCtBEZgJZxAU3T4MIqzj4zNy15XRT59I1Us+QdqXTNm+pkZ41Yd2X/nxs2Pkvbq3NWWlIGw==}
     cpu: [x64]
     os: [freebsd]
 
-  lefthook-linux-arm64@2.1.6:
-    resolution: {integrity: sha512-WDJiQhJdZOvKORZd+kF/ms2l6NSsXzdA9ahflyr65V90AC4jES223W8VtEMbGPUtHuGWMEZ/v/XvwlWv0Ioz9g==}
+  lefthook-linux-arm64@2.1.9:
+    resolution: {integrity: sha512-1oNIQfwrPe6rgU2KcDM3aF6+hpZDCKx1TmawQKpXUY5gVsbZ7MqX0Sk/1lnnWxqPm+kQQ5f6J2dpFWd+4xH8jg==}
     cpu: [arm64]
     os: [linux]
 
-  lefthook-linux-x64@2.1.6:
-    resolution: {integrity: sha512-C18nCd7nTX1AVL4TcvwMmLAO1VI1OuGluIOTjiPkBQ746Ls1HhL5rl//jMPACmT28YmxIQJ2ZcLPNmhvEVBZvw==}
+  lefthook-linux-x64@2.1.9:
+    resolution: {integrity: sha512-fT+7Q+BJyGp+CslFQkNXmdFRgyVXsPHPi9NAsDX0a6QOyNnoORByAsvx6zeAKuF5rL3BBgNfho1/v2RuGxGy9w==}
     cpu: [x64]
     os: [linux]
 
-  lefthook-openbsd-arm64@2.1.6:
-    resolution: {integrity: sha512-mZOMxM8HiPxVFXDO3PtCUbH4GB8rkveXhsgXF27oAZTYVzQ3gO9vT6r/pxit6msqRXz3fvcwimLVJgb8eRsa8A==}
+  lefthook-openbsd-arm64@2.1.9:
+    resolution: {integrity: sha512-4bVuafBk3dddVNo0+3hMbjcJs4mqYAstxpPMmX2ufkudSTYFNIhWoqwuGVQV/SS/xdcOKJAldW4qayAzed2ysw==}
     cpu: [arm64]
     os: [openbsd]
 
-  lefthook-openbsd-x64@2.1.6:
-    resolution: {integrity: sha512-sG9ALLZSnnMOfXu+B7SmxFhJhuoAh4bqi5En5aaHJET48TqrLOcWWZuH+7ArFM6gr/U5KfSUvdmHFmY8WqCcIg==}
+  lefthook-openbsd-x64@2.1.9:
+    resolution: {integrity: sha512-PmPoMmLP/wQQWcQ9u2YH86bTZ3UCfBsxuEmVTEyPU2U8R1qSTp5r/Gs3G8cN5Mxo91XB9oBERtF1n+xD3W6aVA==}
     cpu: [x64]
     os: [openbsd]
 
-  lefthook-windows-arm64@2.1.6:
-    resolution: {integrity: sha512-lD8yFWY4Csuljd0Rqs7EQaySC0VvDf7V3rN1FhRMUISTRDHutebIom1Loc8ckQPvKYGC6mftT9k0GvipsS+Brw==}
+  lefthook-windows-arm64@2.1.9:
+    resolution: {integrity: sha512-KphfkBKmwBnmolyrdhIl3lrBaOyTcCgXBT2AB/9OHnEXhOLvv5uTCUkrD4YRAxXPtFKq6UvnapIeoL3GZq0bdA==}
     cpu: [arm64]
     os: [win32]
 
-  lefthook-windows-x64@2.1.6:
-    resolution: {integrity: sha512-q4z2n3xucLscoWiyMwFViEj3N8MDSkPulMwcJYuCYFHoPhP1h+icqNu7QRLGYj6AnVrCQweiUJY3Tb2X+GbD/A==}
+  lefthook-windows-x64@2.1.9:
+    resolution: {integrity: sha512-2qlUtkJHZ3MyUxgV5XTEmcrIoNZA07iwaquoswAcqv/1MeBFXlD+O+koFRfrzWng2O5WYEbpJnd8tvaYnV8fTA==}
     cpu: [x64]
     os: [win32]
 
-  lefthook@2.1.6:
-    resolution: {integrity: sha512-w9sBoR0mdN+kJc3SB85VzpiAAl451/rxdCRcZlwW71QLjkeH3EBQFgc4VMj5apePychYDHAlqEWTB8J8JK/j1Q==}
+  lefthook@2.1.9:
+    resolution: {integrity: sha512-bwDaIOViTktE8kJLf9jP0p+H2/RDTlFFlc43Am2YgUsX22hI6Sq4RbzsrecwzY5y+MHTipOH7WsmWSEniePHWQ==}
     hasBin: true
 
   less-loader@12.3.2:
@@ -16322,13 +16322,13 @@ snapshots:
       - verdaccio
       - webpack-cli
 
-  '@nx/next@23.0.0(66477fe4b5d1c914c91d6fa3f347a066)':
+  '@nx/next@23.0.0(7ca358a16fa4378a2c73265c5691a85c)':
     dependencies:
       '@babel/plugin-proposal-decorators': 7.29.0(@babel/core@7.29.0)
       '@nx/devkit': 23.0.0(nx@23.0.0(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.11(@swc/helpers@0.5.18))(@swc/types@0.1.26)(typescript@5.9.3))(@swc/core@1.15.11(@swc/helpers@0.5.18)))
       '@nx/eslint': 23.0.0(9a0725b81355a535bee5fcc27fd95bd9)
       '@nx/js': 23.0.0(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.11(@swc/helpers@0.5.18))(@swc/types@0.1.26)(typescript@5.9.3))(@swc/cli@0.8.1(@swc/core@1.15.11(@swc/helpers@0.5.18))(chokidar@5.0.0))(@swc/core@1.15.11(@swc/helpers@0.5.18))(nx@23.0.0(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.11(@swc/helpers@0.5.18))(@swc/types@0.1.26)(typescript@5.9.3))(@swc/core@1.15.11(@swc/helpers@0.5.18)))(verdaccio@6.5.2(encoding@0.1.13)(typanion@3.14.0))
-      '@nx/react': 23.0.0(559c6b4c2d2b93c28d829229022824ef)
+      '@nx/react': 23.0.0(09c3e6ad7a9a2ba6874069d6e78e7cc3)
       '@nx/web': 23.0.0(b03e6d05d6f37d52e729fbe46599e023)
       '@nx/webpack': 23.0.0(@babel/traverse@7.29.0)(@rspack/core@1.6.8(@swc/helpers@0.5.18))(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.11(@swc/helpers@0.5.18))(@swc/types@0.1.26)(supports-color@8.1.1)(typescript@5.9.3))(@swc/cli@0.8.1(@swc/core@1.15.11(@swc/helpers@0.5.18))(chokidar@5.0.0))(@swc/core@1.15.11(@swc/helpers@0.5.18))(esbuild@0.27.7)(nx@23.0.0(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.11(@swc/helpers@0.5.18))(@swc/types@0.1.26)(supports-color@8.1.1)(typescript@5.9.3))(@swc/core@1.15.11(@swc/helpers@0.5.18)))(typescript@5.9.3)(verdaccio@6.5.2(encoding@0.1.13)(supports-color@8.1.1)(typanion@3.14.0))(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.106.2(@swc/core@1.15.11(@swc/helpers@0.5.18))(esbuild@0.27.7)))(webpack@5.106.2(@swc/core@1.15.11(@swc/helpers@0.5.18))(esbuild@0.27.7))
       '@phenomnomnominal/tsquery': 6.2.0(typescript@5.9.3)
@@ -16437,7 +16437,7 @@ snapshots:
       - typescript
       - verdaccio
 
-  '@nx/react@23.0.0(559c6b4c2d2b93c28d829229022824ef)':
+  '@nx/react@23.0.0(09c3e6ad7a9a2ba6874069d6e78e7cc3)':
     dependencies:
       '@nx/devkit': 23.0.0(nx@23.0.0(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.11(@swc/helpers@0.5.18))(@swc/types@0.1.26)(typescript@5.9.3))(@swc/core@1.15.11(@swc/helpers@0.5.18)))
       '@nx/eslint': 23.0.0(9a0725b81355a535bee5fcc27fd95bd9)
@@ -16448,7 +16448,7 @@ snapshots:
       '@phenomnomnominal/tsquery': 6.2.0(typescript@5.9.3)
       '@svgr/webpack': 8.1.0(typescript@5.9.3)
       express: 4.22.1
-      http-proxy-middleware: 3.0.5(supports-color@8.1.1)
+      http-proxy-middleware: 3.0.5
       minimatch: 10.2.5
       react: 19.2.5
       react-dom: 19.2.5(react@19.2.5)
@@ -18973,7 +18973,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/project-service@8.58.2(supports-color@8.1.1)(typescript@5.9.3)':
+  '@typescript-eslint/project-service@8.58.2(typescript@5.9.3)':
     dependencies:
       '@typescript-eslint/tsconfig-utils': 8.58.2(typescript@5.9.3)
       '@typescript-eslint/types': 8.58.2
@@ -19015,7 +19015,7 @@ snapshots:
   '@typescript-eslint/type-utils@8.58.2(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@typescript-eslint/types': 8.58.2
-      '@typescript-eslint/typescript-estree': 8.58.2(supports-color@8.1.1)(typescript@5.9.3)
+      '@typescript-eslint/typescript-estree': 8.58.2(typescript@5.9.3)
       '@typescript-eslint/utils': 8.58.2(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1))(typescript@5.9.3)
       debug: 4.4.3(supports-color@8.1.1)
       eslint: 9.39.4(jiti@2.6.1)(supports-color@8.1.1)
@@ -19043,9 +19043,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/typescript-estree@8.58.2(supports-color@8.1.1)(typescript@5.9.3)':
+  '@typescript-eslint/typescript-estree@8.58.2(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/project-service': 8.58.2(supports-color@8.1.1)(typescript@5.9.3)
+      '@typescript-eslint/project-service': 8.58.2(typescript@5.9.3)
       '@typescript-eslint/tsconfig-utils': 8.58.2(typescript@5.9.3)
       '@typescript-eslint/types': 8.58.2
       '@typescript-eslint/visitor-keys': 8.58.2
@@ -19074,7 +19074,7 @@ snapshots:
       '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4(jiti@2.6.1)(supports-color@8.1.1))
       '@typescript-eslint/scope-manager': 8.58.2
       '@typescript-eslint/types': 8.58.2
-      '@typescript-eslint/typescript-estree': 8.58.2(supports-color@8.1.1)(typescript@5.9.3)
+      '@typescript-eslint/typescript-estree': 8.58.2(typescript@5.9.3)
       eslint: 9.39.4(jiti@2.6.1)(supports-color@8.1.1)
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -19258,7 +19258,7 @@ snapshots:
     dependencies:
       '@verdaccio/config': 8.0.0-next-8.37
       '@verdaccio/core': 8.0.0-next-8.37
-      '@verdaccio/url': 13.0.0-next-8.37
+      '@verdaccio/url': 13.0.0-next-8.37(supports-color@8.1.1)
       debug: 4.4.3(supports-color@8.1.1)
       express: 4.22.1
       express-rate-limit: 5.5.1
@@ -19291,7 +19291,7 @@ snapshots:
   '@verdaccio/tarball@13.0.0-next-8.37(supports-color@8.1.1)':
     dependencies:
       '@verdaccio/core': 8.0.0-next-8.37
-      '@verdaccio/url': 13.0.0-next-8.37
+      '@verdaccio/url': 13.0.0-next-8.37(supports-color@8.1.1)
       debug: 4.4.3(supports-color@8.1.1)
       gunzip-maybe: 1.4.2
       tar-stream: 3.1.7
@@ -19306,7 +19306,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@verdaccio/url@13.0.0-next-8.37':
+  '@verdaccio/url@13.0.0-next-8.37(supports-color@8.1.1)':
     dependencies:
       '@verdaccio/core': 8.0.0-next-8.37
       debug: 4.4.3(supports-color@8.1.1)
@@ -21764,10 +21764,6 @@ snapshots:
 
   flatted@3.4.2: {}
 
-  follow-redirects@1.16.0(debug@4.4.3(supports-color@8.1.1)):
-    optionalDependencies:
-      debug: 4.4.3(supports-color@8.1.1)
-
   follow-redirects@1.16.0(debug@4.4.3):
     optionalDependencies:
       debug: 4.4.3(supports-color@8.1.1)
@@ -22566,25 +22562,6 @@ snapshots:
       micromatch: 4.0.8
     transitivePeerDependencies:
       - supports-color
-
-  http-proxy-middleware@3.0.5(supports-color@8.1.1):
-    dependencies:
-      '@types/http-proxy': 1.17.17
-      debug: 4.4.3(supports-color@8.1.1)
-      http-proxy: 1.18.1(debug@4.4.3(supports-color@8.1.1))
-      is-glob: 4.0.3
-      is-plain-object: 5.0.0
-      micromatch: 4.0.8
-    transitivePeerDependencies:
-      - supports-color
-
-  http-proxy@1.18.1(debug@4.4.3(supports-color@8.1.1)):
-    dependencies:
-      eventemitter3: 4.0.7
-      follow-redirects: 1.16.0(debug@4.4.3(supports-color@8.1.1))
-      requires-port: 1.0.0
-    transitivePeerDependencies:
-      - debug
 
   http-proxy@1.18.1(debug@4.4.3):
     dependencies:
@@ -23491,48 +23468,48 @@ snapshots:
       shell-quote: 1.8.3
     optional: true
 
-  lefthook-darwin-arm64@2.1.6:
+  lefthook-darwin-arm64@2.1.9:
     optional: true
 
-  lefthook-darwin-x64@2.1.6:
+  lefthook-darwin-x64@2.1.9:
     optional: true
 
-  lefthook-freebsd-arm64@2.1.6:
+  lefthook-freebsd-arm64@2.1.9:
     optional: true
 
-  lefthook-freebsd-x64@2.1.6:
+  lefthook-freebsd-x64@2.1.9:
     optional: true
 
-  lefthook-linux-arm64@2.1.6:
+  lefthook-linux-arm64@2.1.9:
     optional: true
 
-  lefthook-linux-x64@2.1.6:
+  lefthook-linux-x64@2.1.9:
     optional: true
 
-  lefthook-openbsd-arm64@2.1.6:
+  lefthook-openbsd-arm64@2.1.9:
     optional: true
 
-  lefthook-openbsd-x64@2.1.6:
+  lefthook-openbsd-x64@2.1.9:
     optional: true
 
-  lefthook-windows-arm64@2.1.6:
+  lefthook-windows-arm64@2.1.9:
     optional: true
 
-  lefthook-windows-x64@2.1.6:
+  lefthook-windows-x64@2.1.9:
     optional: true
 
-  lefthook@2.1.6:
+  lefthook@2.1.9:
     optionalDependencies:
-      lefthook-darwin-arm64: 2.1.6
-      lefthook-darwin-x64: 2.1.6
-      lefthook-freebsd-arm64: 2.1.6
-      lefthook-freebsd-x64: 2.1.6
-      lefthook-linux-arm64: 2.1.6
-      lefthook-linux-x64: 2.1.6
-      lefthook-openbsd-arm64: 2.1.6
-      lefthook-openbsd-x64: 2.1.6
-      lefthook-windows-arm64: 2.1.6
-      lefthook-windows-x64: 2.1.6
+      lefthook-darwin-arm64: 2.1.9
+      lefthook-darwin-x64: 2.1.9
+      lefthook-freebsd-arm64: 2.1.9
+      lefthook-freebsd-x64: 2.1.9
+      lefthook-linux-arm64: 2.1.9
+      lefthook-linux-x64: 2.1.9
+      lefthook-openbsd-arm64: 2.1.9
+      lefthook-openbsd-x64: 2.1.9
+      lefthook-windows-arm64: 2.1.9
+      lefthook-windows-x64: 2.1.9
 
   less-loader@12.3.2(@rspack/core@1.6.8(@swc/helpers@0.5.18))(less@4.5.1)(webpack@5.106.2(@swc/core@1.15.11(@swc/helpers@0.5.18))(esbuild@0.27.7)):
     dependencies:
@@ -27266,7 +27243,7 @@ snapshots:
       '@verdaccio/streams': 10.2.1
       '@verdaccio/tarball': 13.0.0-next-8.37(supports-color@8.1.1)
       '@verdaccio/ui-theme': 9.0.0-next-9.14(supports-color@8.1.1)
-      '@verdaccio/url': 13.0.0-next-8.37
+      '@verdaccio/url': 13.0.0-next-8.37(supports-color@8.1.1)
       '@verdaccio/utils': 8.1.0-next-8.37
       JSONStream: 1.3.5
       async: 3.2.6
