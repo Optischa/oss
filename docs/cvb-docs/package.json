@@ -5,10 +5,10 @@
   "dependencies": {
     "@takumi-rs/core": "0.73.1",
     "@takumi-rs/image-response": "0.69.3",
-    "fumadocs-core": "16.7.14",
+    "fumadocs-core": "16.10.5",
     "fumadocs-docgen": "3.0.10",
-    "fumadocs-mdx": "14.2.8",
-    "fumadocs-ui": "16.6.7",
+    "fumadocs-mdx": "14.3.2",
+    "fumadocs-ui": "16.10.5",
     "lucide-react": "0.577.0",
     "next": "16.2.6",
     "react": "19.2.5",
