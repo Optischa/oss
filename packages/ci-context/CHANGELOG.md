@@ -1,3 +1,13 @@
+## 7.3.0-beta.1 (2026-06-22)
+
+### 🏡 Chore
+
+- **release:** publish 7.2.4 ([73126a46](https://github.com/gperdomor/oss/commit/73126a46))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.2.3 (2026-05-01)
 
 ### 🩹 Fixes

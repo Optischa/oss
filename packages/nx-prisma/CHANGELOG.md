@@ -1,3 +1,14 @@
+## 7.3.0-beta.1 (2026-06-22)
+
+### 🏡 Chore
+
+- **release:** publish 7.2.4 ([73126a46](https://github.com/gperdomor/oss/commit/73126a46))
+- update to nx 23.0.0 ([850daf8e](https://github.com/gperdomor/oss/commit/850daf8e))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.2.3 (2026-05-01)
 
 This was a version bump only for nx-prisma to align it with other projects, there were no code changes.

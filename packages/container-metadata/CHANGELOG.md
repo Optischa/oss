@@ -1,3 +1,20 @@
+## 7.3.0-beta.1 (2026-06-22)
+
+### 🩹 Fixes
+
+- **deps:** bump @renovatebot/pep440 from 4.2.1 to v4.2.4 ([f2a57d32](https://github.com/gperdomor/oss/commit/f2a57d32))
+
+### 🏡 Chore
+
+- **deps:** bump semver from ^7.8.4 to v7.8.5 ([c87244b7](https://github.com/gperdomor/oss/commit/c87244b7))
+- **deps:** bump semver from ^7.7.4 to v7.8.4 ([36931c14](https://github.com/gperdomor/oss/commit/36931c14))
+- **release:** publish 7.2.4 ([73126a46](https://github.com/gperdomor/oss/commit/73126a46))
+- update to nx 23.0.0 ([850daf8e](https://github.com/gperdomor/oss/commit/850daf8e))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.2.3 (2026-05-01)
 
 ### 🩹 Fixes

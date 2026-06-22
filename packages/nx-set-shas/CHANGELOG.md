@@ -1,3 +1,20 @@
+## 7.3.0-beta.1 (2026-06-22)
+
+### 🩹 Fixes
+
+- **deps:** bump @oclif/plugin-help from 6.2.44 to v6.2.50 ([e1432c9c](https://github.com/gperdomor/oss/commit/e1432c9c))
+- **deps:** bump @oclif/core from 4.10.5 to v4.11.6 ([2cd0b035](https://github.com/gperdomor/oss/commit/2cd0b035))
+
+### 🏡 Chore
+
+- **deps:** bump semver from ^7.8.4 to v7.8.5 ([c87244b7](https://github.com/gperdomor/oss/commit/c87244b7))
+- **deps:** bump semver from ^7.7.4 to v7.8.4 ([36931c14](https://github.com/gperdomor/oss/commit/36931c14))
+- **release:** publish 7.2.4 ([73126a46](https://github.com/gperdomor/oss/commit/73126a46))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.2.3 (2026-05-01)
 
 This was a version bump only for nx-set-shas to align it with other projects, there were no code changes.
