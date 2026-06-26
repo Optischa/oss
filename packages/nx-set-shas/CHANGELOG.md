@@ -1,3 +1,14 @@
+## 7.3.0-beta.3 (2026-06-26)
+
+### 🩹 Fixes
+
+- **deps:** bump @oclif/plugin-help from 6.2.50 to v6.2.52 ([c830254e](https://github.com/gperdomor/oss/commit/c830254e))
+- **deps:** bump @oclif/core from 4.11.6 to v4.11.7 ([a7613da9](https://github.com/gperdomor/oss/commit/a7613da9))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.3.0-beta.2 (2026-06-22)
 
 This was a version bump only for nx-set-shas to align it with other projects, there were no code changes.

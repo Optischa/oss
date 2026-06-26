@@ -1,3 +1,27 @@
+## 7.3.0-beta.3 (2026-06-26)
+
+### 🩹 Fixes
+
+- npm trusted publish ([b41b7bb7](https://github.com/gperdomor/oss/commit/b41b7bb7))
+- **deps:** bump @oclif/core from 4.11.6 to v4.11.7 ([a7613da9](https://github.com/gperdomor/oss/commit/a7613da9))
+- **deps:** bump @oclif/plugin-help from 6.2.50 to v6.2.52 ([c830254e](https://github.com/gperdomor/oss/commit/c830254e))
+
+### 🏡 Chore
+
+- temporarily disable nx cloud ([#1531](https://github.com/gperdomor/oss/pull/1531))
+- update nx to 23.0.1 ([#1532](https://github.com/gperdomor/oss/pull/1532))
+- **deps:** bump memfs from 4.57.7 to v4.57.8 ([9907fa7a](https://github.com/gperdomor/oss/commit/9907fa7a))
+- **deps:** bump @types/node from 24.12.2 to v24.13.2 ([c9268483](https://github.com/gperdomor/oss/commit/c9268483))
+- **deps:** bump tsx from 4.21.0 to v4.22.4 ([a684942a](https://github.com/gperdomor/oss/commit/a684942a))
+- **deps:** bump typescript-eslint from 8.58.1 to v8.61.1 ([58cbb6e5](https://github.com/gperdomor/oss/commit/58cbb6e5))
+- **deps:** bump swc monorepo ([6c7470a6](https://github.com/gperdomor/oss/commit/6c7470a6))
+- **deps:** bump jiti from 2.6.1 to v2.7.0 ([d027d7ce](https://github.com/gperdomor/oss/commit/d027d7ce))
+- **deps:** lock file maintenance ([02423988](https://github.com/gperdomor/oss/commit/02423988))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.3.0-beta.2 (2026-06-22)
 
 ### 🩹 Fixes
