@@ -1,3 +1,13 @@
+## 7.3.0-beta.5 (2026-06-26)
+
+### 🩹 Fixes
+
+- **nx-set-shas:** fix package publish ([c2ba87e7](https://github.com/gperdomor/oss/commit/c2ba87e7))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.3.0-beta.4 (2026-06-26)
 
 This was a version bump only, there were no code changes.

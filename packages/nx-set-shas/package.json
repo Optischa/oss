@@ -1,6 +1,6 @@
 {
   "name": "@nx-tools/nx-set-shas",
-  "version": "7.3.0-beta.4",
+  "version": "7.3.0-beta.5",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
