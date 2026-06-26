@@ -1,3 +1,28 @@
+## 7.3.0 (2026-06-26)
+
+### 🩹 Fixes
+
+- fix calculateHashForCreateNodes import for older nx versions ([bdbc1ef9](https://github.com/gperdomor/oss/commit/bdbc1ef9))
+- fix calculateHashForCreateNodes import for older nx versions ([ab1c1cf0](https://github.com/gperdomor/oss/commit/ab1c1cf0))
+
+### 🏡 Chore
+
+- enable trusted publisher ([#1536](https://github.com/gperdomor/oss/pull/1536))
+- **release:** publish 7.3.0-beta.5 ([3a0816f2](https://github.com/gperdomor/oss/commit/3a0816f2))
+- **release:** publish 7.3.0-beta.4 ([b6a43756](https://github.com/gperdomor/oss/commit/b6a43756))
+- **release:** publish 7.3.0-beta.3 ([96153086](https://github.com/gperdomor/oss/commit/96153086))
+- **release:** publish 7.3.0-beta.2 ([c6514f07](https://github.com/gperdomor/oss/commit/c6514f07))
+- **release:** publish 7.3.0-beta.1 ([d7d56c57](https://github.com/gperdomor/oss/commit/d7d56c57))
+- **deps:** bump semver from ^7.8.4 to v7.8.5 ([c87244b7](https://github.com/gperdomor/oss/commit/c87244b7))
+- **deps:** bump semver from ^7.7.4 to v7.8.4 ([36931c14](https://github.com/gperdomor/oss/commit/36931c14))
+- **deps:** bump tmp from ^0.2.5 to v0.2.7 ([0a0b72c0](https://github.com/gperdomor/oss/commit/0a0b72c0))
+- **release:** publish 7.2.4 ([73126a46](https://github.com/gperdomor/oss/commit/73126a46))
+- update to nx 23.0.0 ([850daf8e](https://github.com/gperdomor/oss/commit/850daf8e))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.3.0-beta.7 (2026-06-26)
 
 This was a version bump only for nx-container to align it with other projects, there were no code changes.

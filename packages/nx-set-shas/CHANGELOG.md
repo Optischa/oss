@@ -1,3 +1,29 @@
+## 7.3.0 (2026-06-26)
+
+### 🩹 Fixes
+
+- **nx-set-shas:** fix package publish ([c2ba87e7](https://github.com/gperdomor/oss/commit/c2ba87e7))
+- **deps:** bump @oclif/plugin-help from 6.2.50 to v6.2.52 ([c830254e](https://github.com/gperdomor/oss/commit/c830254e))
+- **deps:** bump @oclif/core from 4.11.6 to v4.11.7 ([a7613da9](https://github.com/gperdomor/oss/commit/a7613da9))
+- **deps:** bump @oclif/plugin-help from 6.2.44 to v6.2.50 ([e1432c9c](https://github.com/gperdomor/oss/commit/e1432c9c))
+- **deps:** bump @oclif/core from 4.10.5 to v4.11.6 ([2cd0b035](https://github.com/gperdomor/oss/commit/2cd0b035))
+
+### 🏡 Chore
+
+- enable trusted publisher ([#1536](https://github.com/gperdomor/oss/pull/1536))
+- **release:** publish 7.3.0-beta.5 ([3a0816f2](https://github.com/gperdomor/oss/commit/3a0816f2))
+- **release:** publish 7.3.0-beta.4 ([b6a43756](https://github.com/gperdomor/oss/commit/b6a43756))
+- **release:** publish 7.3.0-beta.3 ([96153086](https://github.com/gperdomor/oss/commit/96153086))
+- **release:** publish 7.3.0-beta.2 ([c6514f07](https://github.com/gperdomor/oss/commit/c6514f07))
+- **release:** publish 7.3.0-beta.1 ([d7d56c57](https://github.com/gperdomor/oss/commit/d7d56c57))
+- **deps:** bump semver from ^7.8.4 to v7.8.5 ([c87244b7](https://github.com/gperdomor/oss/commit/c87244b7))
+- **deps:** bump semver from ^7.7.4 to v7.8.4 ([36931c14](https://github.com/gperdomor/oss/commit/36931c14))
+- **release:** publish 7.2.4 ([73126a46](https://github.com/gperdomor/oss/commit/73126a46))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.3.0-beta.7 (2026-06-26)
 
 This was a version bump only for nx-set-shas to align it with other projects, there were no code changes.

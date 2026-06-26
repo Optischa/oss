@@ -1,3 +1,70 @@
+## 7.3.0 (2026-06-26)
+
+### 🩹 Fixes
+
+- fix calculateHashForCreateNodes import for older nx versions ([ab1c1cf0](https://github.com/gperdomor/oss/commit/ab1c1cf0))
+- fix calculateHashForCreateNodes import for older nx versions ([bdbc1ef9](https://github.com/gperdomor/oss/commit/bdbc1ef9))
+- npm trusted publish ([15e17cdb](https://github.com/gperdomor/oss/commit/15e17cdb))
+- npm trusted publish ([b41b7bb7](https://github.com/gperdomor/oss/commit/b41b7bb7))
+- **deps:** bump @renovatebot/pep440 from 4.2.1 to v4.2.4 ([f2a57d32](https://github.com/gperdomor/oss/commit/f2a57d32))
+- **deps:** bump fumadocs-typescript from 5.2.4 to v5.2.6 ([684b75c2](https://github.com/gperdomor/oss/commit/684b75c2))
+- **deps:** bump @oclif/core from 4.10.5 to v4.11.6 ([2cd0b035](https://github.com/gperdomor/oss/commit/2cd0b035))
+- **deps:** bump prisma monorepo from 7.7.0 to v7.8.0 ([e4fc8db7](https://github.com/gperdomor/oss/commit/e4fc8db7))
+- **deps:** bump tailwind-merge from 3.5.0 to v3.6.0 ([1fb6d0d1](https://github.com/gperdomor/oss/commit/1fb6d0d1))
+- **deps:** bump tinyexec from 1.1.1 to v1.2.4 ([51ff3da6](https://github.com/gperdomor/oss/commit/51ff3da6))
+- **deps:** bump fumadocs package versions ([987ee6fc](https://github.com/gperdomor/oss/commit/987ee6fc))
+- **deps:** bump nextjs monorepo from 16.2.3 to v16.2.9 ([0ccb385b](https://github.com/gperdomor/oss/commit/0ccb385b))
+- **deps:** bump @oclif/plugin-help from 6.2.44 to v6.2.50 ([e1432c9c](https://github.com/gperdomor/oss/commit/e1432c9c))
+- **deps:** bump react monorepo ([86c7d23d](https://github.com/gperdomor/oss/commit/86c7d23d))
+- **deps:** bump @takumi-rs/image-response from 0.69.3 to v0.73.1 ([050141ff](https://github.com/gperdomor/oss/commit/050141ff))
+- **deps:** bump @oclif/core from 4.11.6 to v4.11.7 ([a7613da9](https://github.com/gperdomor/oss/commit/a7613da9))
+- **deps:** bump @oclif/plugin-help from 6.2.50 to v6.2.52 ([c830254e](https://github.com/gperdomor/oss/commit/c830254e))
+- **nx-set-shas:** fix package publish ([c2ba87e7](https://github.com/gperdomor/oss/commit/c2ba87e7))
+
+### 🏡 Chore
+
+- update to nx 23.0.0 ([850daf8e](https://github.com/gperdomor/oss/commit/850daf8e))
+- bump pnpm and node version ([04992a91](https://github.com/gperdomor/oss/commit/04992a91))
+- downgrade pnpm version to 10 to fix renovate OOM issue ([ebad02fc](https://github.com/gperdomor/oss/commit/ebad02fc))
+- update dependabot config ([0cb13e05](https://github.com/gperdomor/oss/commit/0cb13e05))
+- temporarily disable nx cloud ([#1531](https://github.com/gperdomor/oss/pull/1531))
+- update nx to 23.0.1 ([#1532](https://github.com/gperdomor/oss/pull/1532))
+- enable trusted publisher ([#1536](https://github.com/gperdomor/oss/pull/1536))
+- **deps:** bump lefthook from 2.1.6 to v2.1.9 ([412d1c22](https://github.com/gperdomor/oss/commit/412d1c22))
+- **deps:** bump czg from 1.12.0 to v1.13.1 ([1ed48cab](https://github.com/gperdomor/oss/commit/1ed48cab))
+- **deps:** bump commitlint monorepo from 20.5.0 to v20.5.3 ([ebbfd9b6](https://github.com/gperdomor/oss/commit/ebbfd9b6))
+- **deps:** bump dotenv from 17.4.1 to v17.4.2 ([3696ff17](https://github.com/gperdomor/oss/commit/3696ff17))
+- **deps:** bump memfs from 4.57.1 to v4.57.7 ([07c900ec](https://github.com/gperdomor/oss/commit/07c900ec))
+- **deps:** bump prettier from 3.8.2 to v3.8.4 ([a5c5f845](https://github.com/gperdomor/oss/commit/a5c5f845))
+- **deps:** bump vitest monorepo from 4.1.4 to v4.1.9 ([ee1db3bf](https://github.com/gperdomor/oss/commit/ee1db3bf))
+- **deps:** bump @types/mdx from 2.0.13 to v2.0.14 ([da53c1bb](https://github.com/gperdomor/oss/commit/da53c1bb))
+- **deps:** bump postcss packages ([c6f5949e](https://github.com/gperdomor/oss/commit/c6f5949e))
+- **deps:** bump verdaccio from 6.5.2 to v6.7.2 ([b10e9082](https://github.com/gperdomor/oss/commit/b10e9082))
+- **deps:** bump tailwindcss monorepo from 4.1.18 to v4.3.1 ([9e3521ac](https://github.com/gperdomor/oss/commit/9e3521ac))
+- **deps:** bump oclif from 4.23.0 to v4.23.16 ([42d2c8bc](https://github.com/gperdomor/oss/commit/42d2c8bc))
+- **deps:** bump tmp from ^0.2.5 to v0.2.7 ([0a0b72c0](https://github.com/gperdomor/oss/commit/0a0b72c0))
+- **deps:** bump commitlint monorepo from 20.5.3 to v21 ([64d6e6ac](https://github.com/gperdomor/oss/commit/64d6e6ac))
+- **deps:** bump semver from ^7.7.4 to v7.8.4 ([36931c14](https://github.com/gperdomor/oss/commit/36931c14))
+- **deps:** bump semver from ^7.8.4 to v7.8.5 ([c87244b7](https://github.com/gperdomor/oss/commit/c87244b7))
+- **deps:** bump moment-timezone from ^0.6.0 to v0.6.2 ([a41325f6](https://github.com/gperdomor/oss/commit/a41325f6))
+- **deps:** bump memfs from 4.57.7 to v4.57.8 ([9907fa7a](https://github.com/gperdomor/oss/commit/9907fa7a))
+- **deps:** bump @types/node from 24.12.2 to v24.13.2 ([c9268483](https://github.com/gperdomor/oss/commit/c9268483))
+- **deps:** bump tsx from 4.21.0 to v4.22.4 ([a684942a](https://github.com/gperdomor/oss/commit/a684942a))
+- **deps:** bump typescript-eslint from 8.58.1 to v8.61.1 ([58cbb6e5](https://github.com/gperdomor/oss/commit/58cbb6e5))
+- **deps:** bump swc monorepo ([6c7470a6](https://github.com/gperdomor/oss/commit/6c7470a6))
+- **deps:** bump jiti from 2.6.1 to v2.7.0 ([d027d7ce](https://github.com/gperdomor/oss/commit/d027d7ce))
+- **deps:** lock file maintenance ([02423988](https://github.com/gperdomor/oss/commit/02423988))
+- **release:** publish 7.2.4 ([73126a46](https://github.com/gperdomor/oss/commit/73126a46))
+- **release:** publish 7.3.0-beta.1 ([d7d56c57](https://github.com/gperdomor/oss/commit/d7d56c57))
+- **release:** publish 7.3.0-beta.2 ([c6514f07](https://github.com/gperdomor/oss/commit/c6514f07))
+- **release:** publish 7.3.0-beta.3 ([96153086](https://github.com/gperdomor/oss/commit/96153086))
+- **release:** publish 7.3.0-beta.4 ([b6a43756](https://github.com/gperdomor/oss/commit/b6a43756))
+- **release:** publish 7.3.0-beta.5 ([3a0816f2](https://github.com/gperdomor/oss/commit/3a0816f2))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.3.0-beta.7 (2026-06-26)
 
 ### 🏡 Chore

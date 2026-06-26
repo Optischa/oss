@@ -1,3 +1,20 @@
+## 7.3.0 (2026-06-26)
+
+### 🏡 Chore
+
+- enable trusted publisher ([#1536](https://github.com/gperdomor/oss/pull/1536))
+- **release:** publish 7.3.0-beta.5 ([3a0816f2](https://github.com/gperdomor/oss/commit/3a0816f2))
+- **release:** publish 7.3.0-beta.4 ([b6a43756](https://github.com/gperdomor/oss/commit/b6a43756))
+- **release:** publish 7.3.0-beta.3 ([96153086](https://github.com/gperdomor/oss/commit/96153086))
+- **release:** publish 7.3.0-beta.2 ([c6514f07](https://github.com/gperdomor/oss/commit/c6514f07))
+- **release:** publish 7.3.0-beta.1 ([d7d56c57](https://github.com/gperdomor/oss/commit/d7d56c57))
+- **release:** publish 7.2.4 ([73126a46](https://github.com/gperdomor/oss/commit/73126a46))
+- update to nx 23.0.0 ([850daf8e](https://github.com/gperdomor/oss/commit/850daf8e))
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+
 ## 7.3.0-beta.7 (2026-06-26)
 
 This was a version bump only for nx-prisma to align it with other projects, there were no code changes.
