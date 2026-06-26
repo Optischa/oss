@@ -11,10 +11,6 @@ permissions:
   id-token: write # Required for OIDC
   contents: read
 
-env:
-  NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
-  NX_NO_CLOUD: true
-
 jobs:
   publish:
     # prevents this action from running on forks
@@ -36,22 +32,18 @@ jobs:
 
       - uses: actions/setup-node@v6
         with:
-          node-version: '24'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: 24
+          registry-url: https://registry.npmjs.org/
           package-manager-cache: false # never use caching in release builds
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-        shell: bash
 
       - name: Print Environment Info
         run: pnpm exec nx report
-        shell: bash
 
       - name: Building packages
-        run: pnpm exec nx run-many --target=build --exclude=cvb-docs,nx-tools-docs,website
-        shell: bash
-
+        run: pnpm exec nx run-many --target=build --no-cloud
       - name: Determine npm tag
         id: npm-tag
         run: |
@@ -63,11 +55,8 @@ jobs:
             echo "tag=latest" >> $GITHUB_OUTPUT
             echo "Stable release detected. Using 'latest' tag."
           fi
-        shell: bash
 
       - name: Publish packages
-        run: pnpm exec nx release publish --access=public --tag=${{ steps.npm-tag.outputs.tag }}
-        shell: bash
+        run: pnpm exec nx release publish --access=public --tag=${{ steps.npm-tag.outputs.tag }} --no-cloud
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
